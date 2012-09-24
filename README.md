@@ -3,6 +3,7 @@ Gun C Zero Array
 1. 节省空间
 * 实现动态扩展，按需要分配
 * 缺点？
+
 ```c
 #define NO 3
 #include <stdlib.h>
