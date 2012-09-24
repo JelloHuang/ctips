@@ -40,3 +40,16 @@ Gun C Zero Array
 	    	printf("next_val = %d\n", next_val);
 		printf("sizeof(struct device) = %d\n",sizeof(struct device));
 	}
+	
+	
+		$ git status
+	# On branch master
+	#
+	# Changes to be committed:
+	#
+	#	modified:   benchmarks.rb
+	#
+	# Changed but not updated:
+	#
+	#	modified:   benchmarks.rb
+	#
