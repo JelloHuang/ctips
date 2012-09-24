@@ -28,3 +28,21 @@ int main()
 	printf("sizeof(struct device) = %d\n",sizeof(struct device));
 }
 ```
+
+
+	$ git diff --cached
+	diff --git a/benchmarks.rb b/benchmarks.rb
+	index 3cb747f..e445e28 100644
+	--- a/benchmarks.rb
+	+++ b/benchmarks.rb
+	@@ -36,6 +36,10 @@ def main
+	          @commit.parents[0].parents[0].parents[0]
+	        end
+
+	+        run_code(x, 'commits 1') do
+	+          git.commits.size
+	+        end
+	+
+	        run_code(x, 'commits 2') do
+	          log = git.commits('master', 15)
+	          log.size
