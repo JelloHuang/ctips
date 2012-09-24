@@ -3,8 +3,20 @@ Gun C Zero Array
 1. 节省空间
 * 实现动态扩展，按需要分配
 * 缺点？
+	$ git status
+	#On branch master
+
+	#
+	# Changes to be committed:
+	#
+	#	modified:   benchmarks.rb
 	
-   
+	#
+	# Changed but not updated:
+	#
+	#	modified:   benchmarks.rb
+	#	
+	int num;
     #define NO 3
     #include <stdlib.h>
     #include <stdio.h>
