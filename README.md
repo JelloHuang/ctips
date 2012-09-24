@@ -4,7 +4,7 @@ Gun C Zero Array
 * 实现动态扩展，按需要分配
 * 缺点？
 	$ git status
-	#On branch master
+	# On branch master
 
 	#
 	# Changes to be committed:
