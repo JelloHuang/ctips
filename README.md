@@ -18,7 +18,7 @@ Gun C Zero Array
 	#	
 	int num;
 	#define NO 3
-```c++
+```c
    #include <stdlib.h>
     #include <stdio.h>
     struct device{
