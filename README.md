@@ -41,6 +41,7 @@ Gun C Zero Array
 		printf("sizeof(struct device) = %d\n",sizeof(struct device));
 	}
 	
+
 	
 		$ git status
 	# On branch master
